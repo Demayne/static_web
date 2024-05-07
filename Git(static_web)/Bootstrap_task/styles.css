@@ -1,0 +1,119 @@
+/* custom styles for img-box*/
+
+.heading-container {
+    background-color: rgb(225, 225, 189); /*background color for header*/
+   
+}
+
+.heading-container h2 {
+    padding-top: 10px; /*padding to bring the heading off the top of the page and align center with the header*/
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.spacer {
+    height: 20px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color:  lightgrey;
+}
+
+
+/*styles for product images*/
+
+.img-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+}
+
+.img-box img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto; /*Makes sure images maintain their aspect ratio*/
+    display: block; /*Ensure proper alignment and spacing*/
+    
+}
+
+.img-box:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;  /* adds an effect to the image when hovered over*/
+}
+
+/*Styles for product details*/
+
+.details-box {
+    text-align: left;
+}
+
+.details-box h3 {
+    color: black; /*color of the product names*/
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: olivedrab;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer; /*Ponter appears when hovering over the buy button*/
+    border-radius: 5px;
+    transition: background-color 0.3 ease; /*button changes color when hovered over*/
+
+}
+
+/*form styles*/
+
+/*provides a full width container, spanning the entire width of the viewport*/
+.container-fluid {
+    display: flex;
+    align-items: center;
+
+}
+
+.form-control {
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+/*logo styles*/
+
+.head {
+    margin-right: 20px;
+}
+
+/*Footer styles*/
+
+.container-fluid h3 {
+    text-align: left;
+    color: black;
+}
+
+
+.container-fluid {
+    background-color: beige;
+    padding: 20px;
+}
+
+.container-fluid form{
+    text-align: left;
+}
+
+.container-fluid img {
+    max-width: 100px;
+    margin-bottom: 10px;/*adjust the size of the logo displayed in the footer*/
+}
+
+.container-fluid .form-control{
+    width: 500px; /*adjust the width of the input boxes for email and password*/
+}
+
+.container-fluid .btn-primary {
+    margin-top: 10px;
+}

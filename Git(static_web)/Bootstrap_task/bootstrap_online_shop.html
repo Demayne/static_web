@@ -1,0 +1,215 @@
+<!-- Demayne Govender
+     Level 2
+     Compulsory Task 1
+     Bootstrap
+     15/03/2024 -->
+
+
+     <!-- - Create online shopping page
+        ITEMS:
+          - Add 10 items to the page
+          - Make use of the grid system
+          - images must become responsive
+          - add a price and product name for each product
+          - add a buy button under each product
+        -->
+    <!--
+        FOOTER:
+          - create a horizontal form
+          - form should get user contact details
+          - include a small company logo next to the form
+    --> 
+
+
+<!DOCTYPE html>
+<head>
+    <!--CSS only-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">  <!--link to the external styles.css stylesheet-->
+    <title>Online-Shopping-Page</title>
+</head>
+
+<body>
+<header class="header-container">
+  <div class="heading-container">
+    <h25>One Stop Appliance Shop</h2> 
+  </div>     
+</header>
+
+<!--add space between header and body-->
+<div class="spacer"></div>
+
+  <!--container for the entire page content-->
+<div class="container content-container">  
+  <!--row to contain the coloumns of products-->
+  <div class="row row-cols-5">
+
+    <!--Product 1-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\coffee machine3.jpg" alt="" class="">
+      </div>
+      <div class="details-box">
+        <h3>Coffee Machine</h3><!--title of the item-->
+        <p>R5 999</p><!--Price of the item-->
+        <button class="btn">Buy</button><!--add basic button-->
+      </div>
+    </div>
+
+    <!--Product 2-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\fridge3.jpg" alt="" class="">
+      </div>
+      <div class="details-box">
+        <h3>Fridge</h3><!--title of the item-->
+        <p>R18 500</p><!--Price of the item-->
+        <button class="btn">Buy</button> <!--add basic button-->
+      </div>
+    </div>
+
+    <!--Product 3-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\gas stove top.jpg" alt="" class="">
+      </div>
+      <div class="details-box">
+        <h3>Gas Stove top</h3><!--title of the item-->
+        <p>R750</p><!--Price of the item-->
+        <button class="btn">Buy</button><!--add basic button-->
+      </div>
+    </div>
+
+    <!--Product 4-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\microwave3.jpg" alt="" class="">
+      </div>
+      <div class="details-box">
+        <h3>Microwave</h3><!--title of the item-->
+        <p>R2500</p><!--Price of the item-->
+        <button class="btn">Buy</button> <!--add basic button-->
+      </div>
+    </div>
+
+    <!--Product 5-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\mixer2.jpg" alt="" class="">
+      </div>
+      <div class="details-box">
+        <h3>Mixer</h3><!--title of the item-->
+        <p>R1 099</p><!--Price of the item-->
+        <button class="btn">Buy</button><!--add basic button-->
+      </div>
+    </div>
+
+    <!--Product 6-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\oven3.jpg" alt="" class="">
+      </div>
+      <div class="details-box">
+        <h3>Oven</h3><!--title of the item-->
+        <p>R15 999</p><!--Price of the item-->
+        <button class="btn">Buy</button><!--add basic button-->
+      </div>
+    </div>
+
+    <!--Product 7-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\pan set2.jpg" alt="" class="">
+      </div>
+      <div class="details-box">
+        <h3>Pan set</h3><!--title of the item-->
+        <p>R1 099</p><!--Price of the item-->
+        <button class="btn">Buy</button><!--add basic button-->
+      </div>
+    </div>
+
+    <!--Product 8-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\pots2.jpg" alt="" class="">
+      </div>
+      <div class="details-box">
+        <h3>Pots set</h3><!--title of the item-->
+        <p>R899</p><!--Price of the item-->
+        <button class="btn">Buy</button><!--add basic button-->
+      </div>
+    </div>
+
+    <!--Product 9-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\blender_new1.jpg" alt="" class="">
+      </div>
+      <div class="details-box">
+        <h3>Blender</h3><!--title of the item-->
+        <p>R799</p><!--Price of the item-->
+        <button class="btn">Buy</button><!--add basic button-->
+      </div>
+    </div>
+
+    <!--Product 10-->
+    <div class="col">
+      <!--container for product details-->
+      <div class="img-box">
+        <img src="Images\stove2.jpg" alt="stove" class="">
+      </div>
+      <div class="details-box">
+        <h3>Stove</h3><!--title of the item-->
+        <p>R10 999</p><!--Price of the item-->
+        <button class="btn">Buy</button> <!--add basic button-->
+      </div>
+    </div>
+  
+  </div>
+</div>   
+</body>
+
+<!--Footer of web page-->
+<div class="container-fluid mt-5">
+  <form>
+    <div class="row align-items-center">
+      <div class="col-sm-2">
+        <img src="Images\logo-new.jpg" alt="logo" class="img-fluid"> <!--Add a logo above the form -->
+      </div>
+      <h3>Enter your details below:</h3>
+    </div>
+
+    <div class="row mb-3">
+      <label for="inputEmail3" class="col-sm-5 col-form-label">Email</label>
+      <div class="col-sm-20">
+        <input type="email" class="form-control" id="inputEmail3">
+      </div>
+    </div>
+    <!--Form row for item input-->
+    <div class="row mb-3">
+      <label for="inputPassword3" class="col-sm-5 col-form-label">Password</label>
+      <div class="col-sm-20">
+        <input type="text" class="form-control" id="inputPassword3">
+      </div>
+    </div>
+
+    <!--Form for submit button-->
+    <div class="row mb-3">
+      <div class="col-sm-10 offset-sm-2">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
