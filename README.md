@@ -6,7 +6,7 @@ This repository contains the code for my childhood webpage.
 
 The childhood webpage has been deployed and can be accessed at the following URL:
 
-[My Childhood Webpage](https://username.github.io/static_web/childhood.html)
+[My Childhood Webpage](https://demayne.github.io/static_web/childhood.html)
 
 <!-- Add any additional information about the deployment if needed -->
 
